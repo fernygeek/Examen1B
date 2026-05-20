@@ -20,6 +20,12 @@ input[type="submit"] {
 
 .carta {
     width: 180px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.carta:hover {
+    transform: scale(1.05);
 }
 
 hr {
