@@ -1,0 +1,76 @@
+:root{
+   --color-azul: #209dc7;
+   --color-naranja: hsl(40, 97%, 50%);
+   --color-negro: #000;
+   --color-gris: #eee;
+   --color-blanco: #fff;
+
+   --fuente-familia-arial: Tahoma, sans-serif;
+   --fuente-familia-verdana: verdana, sans-serif;
+   --fuente-normal: 1rem;
+   --fuente-small: 0.8rem;
+   
+   --dimension-redondeado: 25px;
+   --padding: 10px;
+   --margin: 30px;
+}
+
+/* BORDER */
+.border{border: 1px dashed var(--color-negro);}
+.rounded{ border-radius:50%}
+.rounded-md{ border-radius: var(--dimension-redondeado);}
+
+/* BACKGROUND */
+.bg-naranja{background: var(--color-naranja);}
+.bg-primary{background: var(--color-azul);}
+.bg-secondary{background: var(--color-naranja);}
+.bg-gris{background: var(--color-gris);}
+.bg-negro{background: var(--color-negro);}
+
+/* FLEX */
+.d-flex{ display: flex;}
+.justify-content-around{justify-content: space-around;}
+.justify-content-between{justify-content: space-between;}
+.justify-content-center{justify-content: center;}
+.align-items-center{ align-items: center;}
+
+/* FUENTE*/
+.font-family-arial{ font-family: var(--fuente-familia-arial);}
+.font-family-verdana{ font-family: var(--fuente-familia-verdana);}
+.font-size-normal{ font-size: var(--fuente-normal);}
+.font-size-small{ font-size: var(--fuente-small);}
+
+.font-weight-bold{ font-weight: bold;}
+.font-weight-semibold{ font-weight: 600;}
+.font-weight-regular{ font-weight: normal;}
+
+/* ESPACIADO */
+.padding{ padding: var(--padding);}
+.margin{ margin: var(--margin);}
+.margin-0{margin:0px;}
+.padding-0{ padding:0px;}
+
+/* TEXTO */
+.text-center{text-align: center;}
+.text-decoration-none{ text-decoration: none;}
+.text-naranja{ color: var(--color-naranja);}
+.text-blanco{ color: var(--color-blanco);}
+.text-negro{ color: var(--color-negro);}
+.text-azul{ color: var(--color-azul);}
+.text-line-through{ text-decoration: line-through;}
+.text-transform-uppercase{text-transform: uppercase;}
+
+/* LISTA */
+.list-none-style{ list-style-type: none;}
+
+/* SEPARADOR*/
+.separador {
+    box-shadow: 6px 6px 15px var(--color-gris);
+}
+
+*{ box-sizing: border-box}
+
+/* @font-face {
+    font-family: "verdana";
+    src: url("fuentes/Verdana.ttf");
+} */

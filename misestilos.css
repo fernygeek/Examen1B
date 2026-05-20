@@ -1,0 +1,189 @@
+section {
+    padding: 12px 0;    
+}
+
+h1 {
+    padding: 30px 0;
+    text-align: center;
+    color: var(--color-azul);
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-azul);
+}
+
+input[type="text"], 
+input[type="submit"] {
+    margin: 10px 0;
+}
+
+.carta {
+    width: 180px;
+}
+
+hr {
+    border: none;
+    background-color: var(--color-gris);
+    box-shadow: 6px 6px 15px var(--color-gris);
+}   
+
+.imagen-circular {
+    width: 220px;
+    height: 220px;
+    border: 4px solid var(--color-naranja);
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.cachorro {
+    background-image: url("https://picsum.photos/id/237/200/200");
+}
+
+.campo {
+    background-image: url("https://picsum.photos/id/169/200/200");
+}
+
+.oso {
+    background-image: url("https://picsum.photos/id/433/200/200");
+}
+
+/* div {
+    border: 4px solid var(--color-naranja);
+} */
+
+.logo-img{ width: 70px; height: 70px;}
+.imagen-superheroe{
+    width: 250px;
+    height: 250px;
+ }
+.imagen-superheroe img{
+    width:auto;
+    height: 100%;
+ }
+ .card{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid var(--color-warning); */
+    background-image: url("images/user.png");
+    background-size: cover;
+}
+
+.bandera{
+    width: 50px;
+    height: 40px;
+    /* border: 2px solid var(--color-warning); */
+    background-image: url("images/flag.png");
+    background-size: cover;
+}
+
+.flecha{
+    width: 15px;
+    height: 10px;
+    /* border: 2px solid var(--color-warning); */
+    background-image: url("images/arrow.png");
+    background-size: 100% 100%;
+}
+
+.header-menu {
+    height: 70px;
+    padding: 0 10px 0 70px;
+}
+
+.menu-lista {
+    gap: 35px;
+    align-items: center;
+}
+
+.header-derecha {
+    gap: 10px;
+    align-items: center;
+}
+
+.separador {
+    justify-content: center;
+    height: 100px;
+    padding: 0 10px 0 70px;
+}
+
+.menu-lista {
+    gap: 35px;
+    align-items: center;
+}
+
+.servicio {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 234px;
+}
+
+.bg-imagen {
+    height: 700px;
+    background-image: url("images/main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.titulo2 {
+    font-family: inter, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fuente-menu {
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.fuente-miniatura {
+    font-family: inter, sans-serif;
+    font-size: 14px;
+}
+
+.reserva input {
+    width: 320px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    outline: none;
+    background-color: white;
+    /* color: #333; */
+}
+
+.codigo-promocional input {
+    width: 250px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    outline: none;
+    background-color: white;
+    /* color: #333; */
+}
+
+.codigo-promocional input::placeholder {
+    color: #9E9A9A;
+    font-family: inter, sans-serif;
+    font-size: 16px;
+}
+
+.button:hover{ background: var(--color-secundario); }
+
+/* nav ul li:hover{ background: var(--color-warning)} */
+/* nav ul li a:hover{ color: var(--color-warning)}
+div div a:hover{ color: var(--color-warning)} */
+
